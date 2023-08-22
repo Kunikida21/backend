@@ -24,7 +24,7 @@
             <tr>
                 <td><?= $key;?></td>
                 <?php foreach ($uniqueSubject as $item): ?>
-                    <td><?= $values[$item];?></td>
+                    <td><?= $$values[$item] ? : '';?></td>
                 <?php endforeach; ?>
             </tr>
             <?php endforeach; ?>
